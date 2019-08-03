@@ -10,7 +10,7 @@ end
 def summon_captain_planet(planeteer_calls) # code an argument here
   # Your code here
   
-  planeteer_calls
+  planeteer_calls.collect { |word| word.capitalize + "!" }
   
 end
 
