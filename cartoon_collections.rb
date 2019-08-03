@@ -10,7 +10,7 @@ end
 def summon_captain_planet(planeteer_calls) # code an argument here
   # Your code here
   veggies = []
-  planeteer_calls.collect.join(" ")
+  planeteer_calls.join(" ")
   
 end
 
