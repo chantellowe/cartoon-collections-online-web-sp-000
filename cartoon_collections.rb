@@ -10,7 +10,9 @@ end
 def summon_captain_planet(array) # code an argument here
   # Your code here
   
-  array.split(" ")
+  array.collect do |word|
+    word.first.upcase + "!"
+  end
   
 end
 
