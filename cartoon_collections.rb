@@ -10,18 +10,13 @@ end
 def summon_captain_planet(array) # code an argument here
   # Your code here
   
-  new_arr = []
+  veggies = []
   i = 0 
   while i < array.length 
-    new_arr << yield(array[i]) 
+    veggies << yield(array[i]) 
     i += 1
   end
-  new_arr
-  
-  #array.collect do |word|
-   # word.first.upcase + "!"
-  #end
-  
+  veggies
 end
 
 def long_planeteer_calls# code an argument here
