@@ -10,9 +10,8 @@ end
 def summon_captain_planet(planeteer_calls) # code an argument here
   # Your code here
   veggies = []
-  planeteer_calls.map.split(" ") do |word|
-    word.capitalize + "!"
-  end
+  veggies << planeteer_calls.each.split(" ") { |word| word.capitalize + "!" }
+  veggies
 end
 
 def long_planeteer_calls# code an argument here
