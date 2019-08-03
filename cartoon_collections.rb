@@ -27,7 +27,7 @@ def find_the_cheese(array) # code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   #array.collect.join(" ")
-  array.collect.include?(String) { |cheese| cheese.any?(cheese_types) }
+  array.collect.include?("cheddar" || "gouda" || "camembert")
   
 end
 
