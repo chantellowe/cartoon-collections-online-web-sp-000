@@ -17,7 +17,7 @@ end
 def long_planeteer_calls(calls) # code an argument here
   # Your code here
   
-  calls.each.any? { |call| call.count > 4 }
+  calls.any? { |i| i.count > 4 }
   
 end
 
