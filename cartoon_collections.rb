@@ -13,7 +13,7 @@ def summon_captain_planet(array) # code an argument here
   new_arr = []
   i = 0 
   while i < array.length 
-    new_arr << yield(i) {
+    new_arr << yield(array[i]) 
   new_arr
   
   #array.collect do |word|
