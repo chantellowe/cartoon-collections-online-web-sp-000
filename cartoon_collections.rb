@@ -10,8 +10,7 @@ end
 def summon_captain_planet(array) # code an argument here
   # Your code here
   
-  array.split(" ")
-  array.map
+  array.map.split(" ")
   
 end
 
