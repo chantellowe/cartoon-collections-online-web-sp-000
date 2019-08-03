@@ -10,6 +10,7 @@ end
 def summon_captain_planet(array) # code an argument here
   # Your code here
   
+  array.split(" ")
   veggies = []
   i = 0 
   while i < array.length 
