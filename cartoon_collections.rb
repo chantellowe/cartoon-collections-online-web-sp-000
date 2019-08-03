@@ -28,8 +28,11 @@ def find_the_cheese(array) # code an argument here
   
   #array.collect.join(" ")
   if array.collect.any? {cheese_types}
-    return
-    
+    i = cheese_types.any?
+    return array[i]
+  else
+    return nil
+  end
   
 end
 
