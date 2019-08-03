@@ -11,7 +11,9 @@ def summon_captain_planet(array) # code an argument here
   # Your code here
   
   new_arr = []
-  new_arr << array.split(" ")
+  i = 0 
+  while i < array.length 
+    new_arr << yield(i) {
   new_arr
   
   #array.collect do |word|
